@@ -21,7 +21,9 @@ _—— 将您的 Bot 管理面板，轻松放进兜里。 ——_
 | :---------------------------- | :--------------------------------------------- | :------------------------------------------------------------------------- |
 | 📱**LazyTea Mobile (本项目)** | **跨平台移动客户端**，用于连接并管理后端服务。 | [LazyTea-mobile](https://github.com/hlfzsi/LazyTea-mobile)                 |
 | 💻**LazyTea Client**          | **独立桌面客户端**，功能更全面。               | [LazyTea-Client](https://github.com/hlfzsi/LazyTea-Client)                 |
+| 🌐**LazyTea Web**             | **Web管理界面**，提供跨平台的浏览器访问体验。  | [LazyTea-Web](https://github.com/hlfzsi/LazyTea-Web)                       |
 | 🔌**nonebot_plugin_lazytea**  | **NoneBot2 插件**，作为 LazyTea 的后端服务端。 | [nonebot_plugin_lazytea](https://github.com/hlfzsi/nonebot_plugin_lazytea) |
+| 🐚**lazytea-shell-extension** | **命令行扩展**，允许通过聊天消息执行管理命令。 | [lazytea-shell-extension](https://github.com/hlfzsi/nonebot_plugin_lazytea_shell_extension/) |
 
 简单来说，您需要在您的机器人上安装 `nonebot_plugin_lazytea` 作为服务端，然后使用本移动客户端连接到它，即可随时随地进行管理。
 
@@ -81,3 +83,17 @@ fyne package --os ios -appID com.lazytea.mobile
 * [ ]  **UI/UX 优化**: 持续打磨移动端的用户交互和视觉体验。
 * [ ]  **推送通知**: 探索实现关键事件（如Bot离线）的推送通知。
 * [ ]  **性能优化**: 优化数据加载和渲染性能，提供更流畅的体验。
+
+---
+
+### **友情链接**
+
+* [LazyTea Client](https://github.com/hlfzsi/LazyTea-Client)：独立的桌面客户端，功能更全面的原生应用
+* [LazyTea Web](https://github.com/hlfzsi/LazyTea-Web)：现代化的 Web 管理界面，支持所有浏览器访问
+* [nonebot_plugin_lazytea](https://github.com/hlfzsi/nonebot_plugin_lazytea)：LazyTea 的后端服务插件
+* [nonebot_plugin_lazytea_shell_extension](https://github.com/hlfzsi/nonebot_plugin_lazytea_shell_extension/)：为 LazyTea 启用命令管理
+* [NoneBot WebUI](https://webui.nbgui.top/)：✨ 新一代 NoneBot Web 管理界面 ✨
+
+<br>
+
+![Star History](https://api.star-history.com/svg?repos=hlfzsi/LazyTea-mobile,hlfzsi/LazyTea-Client,hlfzsi/nonebot_plugin_lazytea&type=Date)
